@@ -1,0 +1,110 @@
+/**root**/
+body {
+  font-family: "Oswald", sans-serif;
+}
+/**Header Section**/
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+header a {
+  color: white;
+  margin-left: 24px;
+}
+header a:hover {
+  color: white;
+}
+header a:visited {
+  color: white;
+}
+#header-logo {
+  color: white;
+}
+/**Hero Section**/
+#hero-section {
+  background-image: url(/img/coffee-shop-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.685);
+  height: 100vh;
+}
+#hero-logo {
+  width: 250px;
+}
+#hero-ltl {
+  position: relative;
+}
+#arrow-down {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  width: 40px;
+}
+/**Hero Intro Section**/
+#intro-section {
+  background-color: beige;
+}
+#types img {
+  height: 85px;
+}
+
+/**Hero About Section**/
+#about-bg-1 {
+  background-image: url(/img/great-place.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  min-height: 480px;
+}
+#about-bg-2 {
+  background-image: url(/img/coffee-cup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  min-height: 640px;
+}
+#about-bg-all {
+  background-color: black;
+}
+
+/**Hero Menu Section**/
+#menu-section {
+  background-color: beige;
+}
+#menu-section img {
+  width: 250px;
+}
+/**Contact Section**/
+#contact-info-bg1 {
+  background: linear-gradient(to right,#36313782,#36313782), url(/img/open-sign.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  min-height: 640px;
+ }
+ #contact-info-bg2 {
+  background-color: #36313782;
+ }
+  /**Map Section**/
+ /**Footer Section**/
+ #footer-section{
+  background-color: beige;
+ }
+ footer a img{
+  width:32px;
+  
+ }
