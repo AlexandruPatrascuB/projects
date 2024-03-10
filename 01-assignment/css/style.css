@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+/**Header Section**/
+header a {
+  color: #606060;
+  margin-left: 24px;
+}
+header a:active {
+  color: black;
+  margin-left: 24px;
+}
+header a:hover {
+  color: black;
+}
+header a:visited {
+  color: #606060;
+}
+header img {
+  height: 14px;
+}
+
+/**Hero Section**/
+/* #hero-section {
+  background-image: url(../imgs/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 450px ;
+  
+  
+  
+} */
+
+#hero-text {
+  position: absolute;
+  background: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  
+  
+}
+#hero-section img {
+padding: 0;  
+
+}
+
+/**About Section**/
+
+#about-section,
+#recent-work,
+#from-the-blog {
+  background-color: #eeeeee;
+}
+
+/**Recent Work Section**/
+#recent-work-title,
+#from-the-blog-text {
+  border-bottom: 1px solid #606060;
+}
+/* From the blog section */
+
+/* Info Section */
+#info-section {
+  background-color: #212529;
+  color: white;
+}
+
+/* Footer Section */
+footer {
+  background-color: black;
+  color: white;
+}
